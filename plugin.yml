@@ -1,0 +1,9 @@
+name: RDragon
+author: ProfiiQus
+version: 1.0-LTS
+api-version: 1.12
+main: eu.retrox.dragon.RDragon
+commands:
+  rdragon:
+    description: "Spawns an ender dragon"
+    aliases: ["retroxdragon"]

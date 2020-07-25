@@ -1,0 +1,33 @@
+# World to use
+world: world_the_end
+
+# Location to spawn the dragon on
+spawn-location:
+    x: 0
+    y: 80
+    z: 0
+
+messages:
+    not-enough-permissions: "&8[&3RDragon&8] &fNot enough permissions."
+    world-not-found: "&8[&3RDragon&8] &fError - world set in config does not exist."
+    successfully-killed: "&8[&3RDragon&8] &fSuccessfully respawned ender dragon."
+
+# Available actions list:
+#
+#  This list of actions gets executed once a player kills the ender
+#  dragon. Nothing of this is executed if the dragon is killed internally.
+#
+#     - [message] Message send to player
+#     - [broadcast] Message to send to the entire server
+#     - [sound] Sound that gets played
+#     - [server-command] Command to be executed by server
+#     - [player-command] Command to be executed by player
+#
+# You can use {PLAYER} placeholder
+
+action-list:
+    - "[message] Player message"
+    - "[broadcast] Server message"
+    - "[sound] ENTITY_ENDERDRAGON_DEATH"
+    - "[server-command] server command"
+    - "[player-command] me hello"
