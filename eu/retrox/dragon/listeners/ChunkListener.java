@@ -1,6 +1,6 @@
 package eu.retrox.dragon.listeners;
 
-import eu.retrox.dragon.EntityManager;
+import eu.retrox.dragon.managers.EntityManager;
 import eu.retrox.dragon.RDragon;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.EventHandler;

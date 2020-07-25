@@ -1,7 +1,7 @@
 package eu.retrox.dragon.commands;
 
-import eu.retrox.dragon.ConfigurationManager;
-import eu.retrox.dragon.EntityManager;
+import eu.retrox.dragon.managers.ConfigurationManager;
+import eu.retrox.dragon.managers.EntityManager;
 import eu.retrox.dragon.RDragon;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

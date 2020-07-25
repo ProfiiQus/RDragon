@@ -1,8 +1,7 @@
 package eu.retrox.dragon.listeners;
 
-import eu.retrox.dragon.ActionParser;
-import eu.retrox.dragon.ConfigurationManager;
-import org.bukkit.Bukkit;
+import eu.retrox.dragon.actions.parser.ActionParser;
+import eu.retrox.dragon.managers.ConfigurationManager;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;

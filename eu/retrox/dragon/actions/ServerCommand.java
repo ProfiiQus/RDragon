@@ -1,6 +1,6 @@
 package eu.retrox.dragon.actions;
 
-import eu.retrox.dragon.Action;
+import eu.retrox.dragon.actions.parser.Action;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
